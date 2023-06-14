@@ -4331,7 +4331,7 @@ spec:
                 type: object
               oss:
                 properties:
-                  aaccess_key_secret:
+                  access_key_secret:
                     properties:
                       mountFrom:
                         properties:
@@ -4518,7 +4518,7 @@ spec:
                   warn_for_delay:
                     type: string
                 required:
-                - aaccess_key_secret
+                - access_key_secret
                 - access_key_id
                 - bucket
                 - endpoint
@@ -10131,7 +10131,7 @@ spec:
                 type: object
               oss:
                 properties:
-                  aaccess_key_secret:
+                  access_key_secret:
                     properties:
                       mountFrom:
                         properties:
@@ -10318,7 +10318,7 @@ spec:
                   warn_for_delay:
                     type: string
                 required:
-                - aaccess_key_secret
+                - access_key_secret
                 - access_key_id
                 - bucket
                 - endpoint
